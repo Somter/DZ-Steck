@@ -70,7 +70,7 @@ bool List::isEmpty() {
     return head == nullptr;
 }
 
-void List::Print() {
+void List::Print() { 
     Node* thelem = head;
     while (thelem) {
         cout << thelem->data << " ";
